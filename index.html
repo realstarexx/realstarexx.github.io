@@ -2,7 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://9112000.github.io/FFItems/">
-    <title>Starexx - FFItems</title>
+    <title>Starexx Redirect</title>
+    <script>
+        (function () {
+            var path = window.location.pathname;
+            if (path === "/") {
+                window.location.replace("https://fakestarexx.github.io/");
+            } else {
+                window.location.replace("https://fakestarexx.github.io" + path);
+            }
+        })();
+    </script>
 </head>
+<body>
+</body>
 </html>
